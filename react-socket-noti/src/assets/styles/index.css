@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: local("Poppins-Regular"),
+    url("/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: local("Poppins-Bold"),
+    url("/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+body {
+  color: #2e2d2d;
+  font-family: "Poppins-Regular";
+}
+
+.wrapper_website {
+  background: linear-gradient(
+    45deg,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
